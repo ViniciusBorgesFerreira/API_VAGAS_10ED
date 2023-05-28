@@ -1,0 +1,12 @@
+@HOST = http://localhost:8080
+
+POST {{HOST}}/candidates HTTP/1.1
+Content-Type: application/json
+//Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjliZjUyZTlmLTM2MzQtNDA3Ny1iNjdmLWZkOWE5NzQ1ZWQ0ZiIsIm5hbWUiOiJ2aW5uaWUiLCJlbWFpbCI6InZpbm5pZUBtYXJ0aW5zLmNvbSIsInByb2ZpbGUiOiJSRUNSVUlURVIiLCJjb21wYW55IjoiZXN0cmVsYSIsImlhdCI6MTY4NDE2MDY0NywiZXhwIjoxNjg0MTc4NjQ3fQ.D9VND6guTQGrU365hv0xlPfvfkgb8RxNlXzgS_uTdS0
+
+{
+  "name": "vinicinho",
+  "email": "vinicinho@martins.com",
+  "password": "password",
+  "confirmPassword": "password" 
+}

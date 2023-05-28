@@ -1,0 +1,11 @@
+@HOST = http://localhost:8080
+
+POST {{HOST}}/jobs HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjQzZjg4YTFhLTRlNGEtNDlhYy04YjY2LTNmZmY3NmNiMmUyNyIsIm5hbWUiOiJ2aW5pY2luaG8iLCJlbWFpbCI6InZpbmljaW5ob0BtYXJ0aW5zLmNvbSIsInByb2ZpbGUiOiJDQU5ESURBVEUiLCJjb21wYW55IjpudWxsLCJpYXQiOjE2ODUzMDIyMTYsImV4cCI6MTY4NTMyMDIxNn0.QTX6ZYpTq2gsF3aCXiFQQa-NgZ-ss2_N_IGFckGTtrE
+Content-Type: application/json
+
+{
+    "description": "dev senior",
+    "limitDate":"2023-05-30",
+    "maxCandidates": 5
+}

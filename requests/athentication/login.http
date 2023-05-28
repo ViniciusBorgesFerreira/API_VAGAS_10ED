@@ -1,0 +1,29 @@
+@HOST = http://localhost:8080
+
+POST {{HOST}}/login HTTP/1.1
+Content-Type: application/json
+
+//admin
+# {
+#   "email": "edson@martins.com",
+#   "password": "turma@cabulosa"     
+# }
+
+# //recruiter
+# {
+#   "email": "vinnie@martins.com",
+#   "password": "turma@cabulosa"     
+# }
+
+//candidate
+# {
+#   "email": "vinicinho@martins.com",
+#   "password": "password"     
+# }
+
+
+
+{
+  "email": "vinicinho@martins.com",
+  "password": "password"     
+}
